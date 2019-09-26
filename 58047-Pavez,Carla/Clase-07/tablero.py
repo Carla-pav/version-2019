@@ -24,4 +24,6 @@ def win(tablero):
     if tablero[2]!=" " and tablero[2]==tablero[5] and tablero[5]==tablero[8]:
         return True
     return False
+def full(tablero):
+    return not " " in tablero
                
