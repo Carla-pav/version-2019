@@ -1,4 +1,8 @@
-def draw_tablero(tablero):
+def draw_tablero(tablerito):
+    tablero=tablerito.copy()
+    for i in range(0,9):
+        if tablero[i]==" ":
+            tablero[i]=str(i+1)
     print('  '+tablero[0]+' | '+tablero[1]+' | '+tablero[2])
     print('-- + -- + --')
     print('  '+tablero[3]+' | '+tablero[4]+' | '+tablero[5])
